@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styled font can be invoked using this class */
+.style-text {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* this class makes added items appear on mobile only */
+.appear-on-mobile {
+  display: none;
+}
+
+/* 
+    change on navbar in mobile screen 
+    are implemented here
+ */
+@media only screen and (max-width: 500px) {
+  .appear-on-mobile {
+    display: flex;
+  }
+}

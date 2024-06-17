@@ -1,7 +1,10 @@
+import { NavBar } from "@/components/Navigations/NavBar";
+
 export default function Home() {
   return (
-    <main className="flex items-center">
+    <>
+      <NavBar />
       <h1 className="text-center">Hello, World!</h1>
-    </main>
+    </>
   );
 }
