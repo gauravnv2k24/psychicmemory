@@ -2,7 +2,10 @@
     change on navbar in mobile screen 
     are implemented here
  */
-@media only screen and (max-width: 700px) {
+.additional-link {
+  display: flex;
+}
+@media only screen and (max-width: 620px) {
   /* hides the additional links on navbar */
   .additional-link {
     display: none;

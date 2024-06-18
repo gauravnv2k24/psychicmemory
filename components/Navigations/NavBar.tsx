@@ -18,7 +18,7 @@ export function NavBar() {
     <>
       <nav className="flex items-center p-2 justify-between border-b ">
         {/* this section appears on large screens */}
-        <section className="items-center hidden lg:flex">
+        <section className="items-center hidden lg:flex md:flex sm:flex">
           {/* menu */}
           <i
             className="fas fa-bars mx-2 text-gray-500"
@@ -65,7 +65,7 @@ export function NavBar() {
         <ul className="flex items-center text-[11px] style-text flex-wrap">
           {Pages.map((page, index) => (
             <li
-              className="flex items-center additional-link mr-5"
+              className="items-center additional-link mr-5"
               key={page.title + index}
             >
               <Link href={page.url}>{page.title}</Link>
