@@ -4,14 +4,14 @@
 
 export function TopicTechnology() {
   return (
-    <p className="flex items-center text-xs text-gray-500">
+    <p className="flex items-center text-gray-500">
       <img
         width="30"
         height="30"
         src="https://img.icons8.com/clouds/100/technology.png"
         alt="technology"
       />
-      <span className="text-[10px] ml-1">Technology</span>
+      <span className="text-xs ml-1">Technology</span>
     </p>
   );
 }

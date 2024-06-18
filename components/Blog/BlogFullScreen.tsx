@@ -4,16 +4,16 @@ import { TopicTechnology } from "./BlogTopic";
 // a full screen blog post component
 export function BlogFullScreen() {
   return (
-    <article className="max-w-[450px] my-[30px]">
+    <article className="max-w-[500px] my-[30px]">
       {/* back button */}
       <Link href={"/"}>
-        <button className="bg-blue-500 text-white p-1 px-2 rounded-md text-xs">
+        <button className="bg-blue-500 text-white p-1 px-2 rounded-md text-sm">
           Back
         </button>
       </Link>
 
       {/* bread crumbs */}
-      <section className="text-[10px] my-3">
+      <section className="text-[12px] my-3">
         <span className="text-blue-500">Home</span>
         {" > "}
         <span className="text-blue-500">Blog</span>
@@ -35,19 +35,19 @@ export function BlogFullScreen() {
 
         {/* date and time section */}
         <section className="text-xs text-gray-500 my-5">
-          <span className="text-[10px]">
+          <span className="text-xs">
             <i className="far fa-calendar mr-1"></i>
             16 June, 2024
           </span>
           <i className="fas fa-circle text-blue-500 text-[5px] mx-2"></i>
-          <span className="text-[10px]">
+          <span className="text-xs">
             <i className="far fa-clock mr-1"></i>5 mins
           </span>
         </section>
       </section>
 
       {/* blog discription */}
-      <p className="text-gray-600 text-[11px] text-justify">
+      <p className="text-gray-600  text-justify">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum,
         nesciunt fugit et, itaque eaque modi sed odit minima adipisci ipsum
         laboriosam iste consectetur. Corrupti, enim iste. Quia quod possimus
@@ -65,14 +65,14 @@ export function BlogFullScreen() {
       <section className="flex item-center justify-between">
         <section className="text-xs text-gray-500 mt-5">
           <i className="far fa-heart text-red-500"></i>
-          <span className="text-[10px] ml-1">10 likes</span>
+          <span className="text-xs ml-1">10 likes</span>
           <i className="far fa-comment text-black ml-5"></i>
-          <span className="text-[10px] ml-1">10 comments</span>
+          <span className="text-xs ml-1">10 comments</span>
         </section>
 
         {/* share post section */}
         <section className="text-xs text-gray-500 mt-5">
-          <span className="text-[10px]">
+          <span className="text-xs">
             <i className="fas fa-share mr-1"></i>
             Share
           </span>

@@ -62,7 +62,7 @@ export function NavBar() {
         </h1>
 
         {/* links for navigations */}
-        <ul className="flex items-center text-[11px] style-text flex-wrap">
+        <ul className="flex items-center text-xs style-text flex-wrap">
           {Pages.map((page, index) => (
             <li
               className="items-center additional-link mr-5"
