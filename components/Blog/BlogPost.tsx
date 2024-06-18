@@ -9,13 +9,13 @@ export function BlogPost() {
       <TopicTechnology />
 
       {/* title of the blog */}
-      <h3 className="style-text text-gray-700 flex items-center hover:text-purple-500 hover:cursor-pointer font-bold">
-        Lorem ipsum dolor sit amet.
-        {/* blog post link */}
-        <Link href={"/"}>
+      <Link href={"/blog/1"}>
+        <h3 className="style-text text-gray-700 flex items-center hover:text-purple-500 hover:cursor-pointer font-bold">
+          Lorem ipsum dolor sit amet.
+          {/* blog post link */}
           <i className="fas fa-arrow-up-right-from-square text-[10px] ml-1 text-purple-500"></i>
-        </Link>
-      </h3>
+        </h3>
+      </Link>
 
       {/* blog discription */}
       <p className="text-gray-600 text-[11px]">

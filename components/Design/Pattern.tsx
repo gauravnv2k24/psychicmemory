@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+
+// just a simple illustration pattern
 export function Pattern() {
   return (
     <img
