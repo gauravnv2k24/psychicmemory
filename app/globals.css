@@ -1,3 +1,4 @@
+/* importing req font from google */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
 @tailwind base;
@@ -18,7 +19,7 @@
     change on navbar in mobile screen 
     are implemented here
  */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .appear-on-mobile {
     display: flex;
   }

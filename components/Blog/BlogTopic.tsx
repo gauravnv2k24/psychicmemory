@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+// just a chip based on topic of the blog post
+// is exported from here
 
 export function TopicTechnology() {
   return (

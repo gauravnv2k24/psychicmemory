@@ -28,7 +28,9 @@ export function Blog() {
           </section>
           <h3 className="text-lg font-bold heading">Blogs</h3>
           <p className="text-xs text-gray-500">
-            <span className="text-[10px]">16 June, 2024</span>
+            <span className="text-[10px]">
+              <i className="far fa-calendar mr-1"></i>16 June, 2024
+            </span>
             <i className="fas fa-circle text-blue-500 text-[5px] mx-2"></i>
             <span className="text-[10px]">3 Blogs</span>
           </p>
