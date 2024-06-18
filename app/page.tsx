@@ -3,6 +3,7 @@
 */
 
 import { Blog } from "@/components/Blog/Blog";
+import { TopicTechnology } from "@/components/Blog/BlogTopic";
 
 export default function Home() {
   return (
